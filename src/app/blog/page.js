@@ -1,17 +1,17 @@
-// src/app/page.js
+// src/app/blog/page.js
 import Head from 'next/head';
 import Link from 'next/link';
 
-export default function Home() {
+export default function Blog() {
   return (
     <div>
       <Head>
-        <title>Home - My Next.js Site</title>
-        <meta name="description" content="Welcome to the home page of my Next.js site." />
+        <title>Blog - My Next.js Site</title>
+        <meta name="description" content="Read our latest blog posts on My Next.js Site." />
       </Head>
       <main>
-        <h1>Welcome to My Next.js Site</h1>
-        <p>This is the home page.</p>
+        <h1>Blog</h1>
+        <p>Welcome to our blog. Here are our latest posts:</p>
         <nav>
           <ul>
             <li><Link href="/">Home</Link></li>
